@@ -1,0 +1,81 @@
+<html>
+
+<body>
+
+    <form>
+        <table align="center">
+            <tr>
+                <td colspan="2" align="center"><b>Registration Form</b></td>
+            </tr>
+            <tr>
+                <td><label for="Name"> Name:</label></td>
+                <td><input type="text" id="Name" size="10"placeholder="first name" >
+                <input type="text" id="Name" size="10"placeholder="last name" ></td>
+
+            </tr>
+            <tr>
+                <td><label for="Email">Email address:</label></td>
+                <td><input type="email" id="Email" placeholder="Enter Email"></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password:</label></td>
+                <td><input type="password" id="Password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">phone:</label></td>
+                <td><input type="phone" id="number" required></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="Gender" value="male"><label for="male">Male</label>
+                    <input type="radio" id="female" name="Gender" value="female"><label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Hobbies">Hobbies:</label></td>
+                <td>
+                    <input type="checkbox" id="Reading" name="Hobbies" value="Reading"><label for="Reading">Reading</label>
+                    <input type="checkbox" id="Browsing" name="Hobbies" value="Browsing"><label for="Browsing">Browsing</label>
+                    <input type="checkbox" id="others" name="others" value="others"><label for="others">others</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="DOB">DOB:</label></td>
+                <td><input type="date" id="DOB" required></td>
+            </tr>
+            <tr>
+                <td><label for="Country">Country:</label></td>
+                <td><input type="search" id="Country"></td>
+            </tr>
+
+            <tr>
+                <td><label for="State">State:</label></td>
+                <td>
+                    <select id="State">
+                        <option>None</option>
+                        <option>Telangana</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Karnataka</option>
+                        <option>Mumbai</option>
+                        <option>Kerala</option>
+                        <option>Tamil Nadu</option>
+                        <option>Delhi</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Documents">Documents</label></td>
+                <td><input type="file" id="file"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit" id="submit" name="submit">
+                    <input type="reset" value="Reset" id="reset" name="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
